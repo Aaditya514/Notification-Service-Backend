@@ -120,6 +120,24 @@ node ./src/worker/notificationWorker.js
 
 ---
 
+
+---
+
+## 📖 API Documentation
+
+See the full documentation here 👉 [API_DOCUMENTATION.md](./API_DOCUMENTATION.md)
+
+### Quick Summary
+
+#### `POST /api/notifications`
+Send a notification (SMS or Email).
+
+#### `GET /api/users/:id/notifications`
+Fetch all notifications for a specific user.
+
+Retry logic is built-in: failed notifications will retry up to **3 times** automatically using a background worker.
+
+
 ## 🛠️ Todo / Future Improvements
 
 - [ ] Add unit tests with Jest
