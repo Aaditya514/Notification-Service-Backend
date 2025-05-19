@@ -8,7 +8,7 @@ A robust notification microservice built with **Node.js**, **Express.js**, **Mon
 
 - ✅ Send **Email** or **SMS** notifications
 - 📦 Queue-based architecture using **Redis**
-- 🔁 **Retry mechanism** for failed notifications (max 3 attempts)
+- 🔁 **Retry mechanism** for failed notifications 
 - 🛠️ Modular, production-ready structure with **ES Modules**
 - 🧪 Easily extensible for in-app or push notifications
 - 📊 MongoDB used to store notification history
